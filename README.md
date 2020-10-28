@@ -13,20 +13,28 @@ Texts:
 
 ## Installation
 
+Tested on Windows 10 and Ubuntu 16.04. 
+Tested with Python 3.7 and 3.8.
+
 ```shell script
 $ git clone https://github.com/clemsciences/LaTeCH-CLfl-2020-besnier.git
+$ cd LaTeCH-CLfl-2020-besnier
+$ virtualenv -p /usr/bin/python3 venv
+$ source venv/bin/activate
 $ pip install -r requirements.txt 
 ```
 
 ## Reproducing results
 
 1. Download resources
-Run `$ python3 -m -m latechclfl2020.models latechclfl2020/models/initiate.py`
+Run `$ python -m -m latechclfl2020.models.initiate latechclfl2020/models/initiate.py`
 2. Generating graphs.
-Run `$ python3 -m latechclfl2020.models latechclfl2020/models/scripts.py`
+Run `$ python -m latechclfl2020.models.scripts latechclfl2020/models/scripts.py`
 3. Generating character feature table in paper.
-Run `$ python3 -m latechclfl2020.models latechclfl2020/models/reconstruction.py` 
+Run `$ python -m latechclfl2020.models.reconstruction latechclfl2020/models/reconstruction.py` 
 4. Generating Brynhildr ego-graphs.
-Run `$ python3 -m latechclfl2020.models.paper latechclfl2020/models/paper/graph_visualisation.py`
+Run `$ python -m latechclfl2020.models.paper.graph_visualisation latechclfl2020/models/paper/graph_visualisation.py`
 5. Corpus observation.
-Run `$ python3 -m latechclfl2020.models.paper latechclfl2020/models/paper/corpus_observation.py`
+Run `$ python -m latechclfl2020.models.paper.corpus_observation latechclfl2020/models/paper/corpus_observation.py`
+
+
