@@ -8,12 +8,8 @@ import codecs
 from functools import lru_cache
 from typing import List, Set
 
-from nltk.probability import FreqDist
 from cltk.tokenize.latin.sentence import SentenceTokenizer
 from cltk.tokenize.latin.word import WordTokenizer
-from cltk.stem.lemma import LemmaReplacer
-from cltk.tag.pos import POSTag
-from cltk.corpus.readers import get_corpus_reader
 
 import numpy as np
 
@@ -27,8 +23,6 @@ __author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 
 latin_sentence_tokenizer = SentenceTokenizer()
 latin_word_tokenizer = WordTokenizer()
-latin_pos_tagger = POSTag("latin")
-lemmatizer = LemmaReplacer('latin')
 
 
 # region book
