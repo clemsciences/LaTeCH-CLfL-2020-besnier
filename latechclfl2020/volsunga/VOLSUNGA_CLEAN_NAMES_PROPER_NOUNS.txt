@@ -1,0 +1,132 @@
+Agnarr: Agnarr # secondary, warrior
+Alsviðr: Alsviðr Álsviðr # son of Heimir and Bekkhildr
+Alsvinnr: Alsvinns # secondary, horse pulling the Sun
+Andvari: Andvari # a dwarf
+Atli: Atli Atta Atla # Attila, second husband of Gudhrun
+Auðabróðir: Auðabróðir # secondary, warrior
+
+Álfr: Álfr Álfi Álf Álfs # son of Hunding
+Árvakr: Árvakrs # secondary, horse pulling the Sun
+Áslaug: Áslaugu # daughter of Sigurdr and Brynhildr
+
+Bekkhildr: Bekkhildr # sister of Brynhildr, wife of Heimir
+Bera: Bera Beru # brother of Orkning
+Bikki: Bikka Bikki # advisor of king Jörmunrekr
+Borghildr: Borghildar Borghildr # wife of Sigmundr, mother of Helgi and Hamundr
+Bragi: Braga # scald deified?
+Breði: Breði # slave of Skadhi
+Brynhildr: Brynhildr Brynhildar Brynhildi # queen of Iceland
+Buðli: Buðla Buðli # father of Brynhildr
+
+Dvalinn: Dvalins # a dwarc
+
+Erpr: Erp Erpr # child of Jonakr and Gudhrun
+Eylimi: Eylimi Eylima # father of Hjördhis
+Eyjólf: Eyjólf # son of Hunding
+Eymóðr: Eymóðr # warrior
+
+Fáfnir: Fáfnir Fáfni Fáfnis # Fáfnir
+Fengr: Feng # an other Odin's name
+Fjölnir: Fjölni Fjölnir # an other Odin's name
+Fjörnir: Fjörnir # Gunnar talked to this man
+Frakkar: Frakkar # Franks
+Frekasteinn: Frekasteinn # one of the wolves that is with Odin
+Frigg: Frigg # Odin's wife
+
+Gaulnis: Gaulnis # giant
+Gjúki: Gjúki Gjúka # husband of Grimhildr
+Glaumvör: Glaumvör # wife of Gunnar
+Göróttr: Göróttr #
+Goti: Gota # horse of Gunnarr
+Grani: Grani Grana Gráni # horse of Sigurd
+Granmarr: Granmarr Granmars #
+Grímhildr: Grímhildar Grímhildr Grímhildi # wife of Gjuki
+Grípir: Grípir Grípis # brother of Hjördis
+Gunnarr: Gunnarr Gunnar Gunnars Gunnari # son of Gjuki
+Guttormr: Guttormr Guttorms Guttorm Guttormi # son of Guttormr
+Guðrún: Guðrún Guðrúnu Guðrúnar #
+
+Haddingja: Haddingja #
+Hagbarð: Hagbarð # son of Hunding
+Haka: Haka #
+Hákon: Hákonar # king
+Hálfr: Hálfs # king
+Hamðir: Hamðir # son of Gudhrun and Jonakr
+Hámundr: Hámundr Hámundar # king
+Hænir: Hænir # a god
+Helgi: Helgi # son of Sigmundr and Borghildr
+Heimir: Heimir Heimis Heiman # king and husband of Bekkhildr
+Hervarðr: Hervarð # son of Hunding
+Hjalla: Hjalla # slave
+Hjálmgunnarr: Hjálmgunnar Hjálmgunnarr (secondary)
+Hjálprekr: Hjálpreks Hjálpreki #
+Hjördís: Hjördís Hjördísi Hjördísar #
+Hjörvarð: Hjörvarð #
+Hnikarr: Hnikar # Odin
+Höðbroddr: Höðbroddr Höðbrodd Höðbroddi Höðbrodds # son of Granmarr
+Hreiðmarr: Hreiðmarr Hreiðmari Hreiðmars # father of Fafnir, Reginn and Otr
+Hrímnir: Hrímnir Hrímnis #giant
+Hringr: Hrings # king
+Hroptr: Hroptr #
+Hundingr: Hundingr Hundings # father of Lyngvi
+Högni: Högni Högna # son of Gjuki
+Hölkvir: Hölkvi # horse of Högni
+Huginn: Hugin #
+
+Jarisleifr: Jarisleifr # warrior
+Jónakr: Jónakrs # king
+Jörmunrekr: Jörmunrekr Jörmunrek Jörmunreki Jörmunreks # Ermanerik
+
+Kostbera: Kostbera # wife of Högni
+
+Langbarðr: Langbarðar # LombardLoki : # gods
+Leifr: Leifr # captain
+Loki: Loki Loka # god
+Lyngvi: Lyngvi Lyngva # son of Hundigr
+
+Niflungr: Niflungr # son of Högni
+Nokkurr: Nokkurs # king
+
+Oddrún: Oddrúnu #
+Óinn: Óinn # father of Andvari
+Orkningr: brother of Bera
+Otr: Otr # son of Hreidhmarr
+Óðinn: Óðins Óðni Óðinn Óðin # all-father
+
+Rán: Ránar #
+Randvé: Randvé Randvér Randvés # son of Jörmunrekr
+Reginn: Reginn Regins # son of Hreidhmarr
+Rerir: Rerir Reris # son of Sigi
+Riðill: Riðill # sword
+Rínar: Rínar #
+Rungnir: Rögnis # probably name of Odinn
+
+Saxr: Saxar # Saxons
+Sigarr: Sigarr # king
+Sigi: Sigi Siga # son of Odin
+Siggeirr: Siggeirr Siggeir Siggeiri Siggeirs # husband of Signy
+Sigmundr: Sigmundr Sigmund Sigmundi Sigmundar # father of Sigurdr and son of Völsungr
+Signý: Signýjar Signý Signýju # wife of Siggeir and mother of Sinfjötli
+Sigrún: Sigrúnar Sigrún # daughter of Högni
+Sigurðr: Sigurð Sigurði Sigurðr Sigurðar Fáfnisbana # Fáfnisbana, a surname of Sigurðr
+Sinfjötli: Sinfjötli Sinfjötla # son of Sigmundr and Signy
+Skaði: Skaði # Skaði possessed a slave named Bradhi
+Sleipnir: Sleipni Sleipnis # Odin's horse
+Snævarr: Snævarr # son of Högni
+Sólarr: Sólarr # son of Högni
+Surtr: Surtr # very old god
+Svanhildr: Svanhildi Svanhildr Svanhildar # daughter of Jonakr and Gudhrun and Gudhrun and Sigurd?
+Svafrlöð: Svafrlöð # servant of Brynhildr
+Sveipuðr: Sveipuðr # horse
+Sveggjuðr: Sveggjuðr # horse
+Sörli: Sörli # child of Jonakr and Gudhrun
+
+Týr: Tý # Tyr, a god
+
+Valdamarr: Valdamarr # warrior
+Vanr: Vönum # Vanes
+Vingi: Vingi #
+Væringar: Væringar # people
+Völsungr: Völsungi Völsungr Völsungar Völsung Völsunga Völsungs # father of Sigmundr
+
+Þóra: Þóru # daughter of Hakon

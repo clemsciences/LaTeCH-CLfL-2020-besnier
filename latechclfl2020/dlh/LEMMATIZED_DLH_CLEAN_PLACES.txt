@@ -1,0 +1,357 @@
+Abia: Abia # Abias
+Abrincatis: Abrincatis # Avranches
+Acaunos: Acaunos Acaunensim Acaunenses Acaunensium # Aucane d'Agaune, de Saint-Maurice
+Aecolinensis: Aecolinensis
+Aeclesiae: Aeclesiae # Eglise
+Aetaliae: Aetaliae # Italie
+Africa: Africa Africae Africam Africanum # Afrique
+Agatha: Agathaes Agathensi Agathensis # Agde
+Agenninsis: Agenninsis Agennensibus # Agen
+Aginnum: Aginnum # Agen
+Agripinam: Agripinam Agrepinam # Cologne
+Agrippinensi: Agrippinensi Agripinensim # Cologne
+Agustidunensi: Agustidunensi Agustidunensim Agustidunensis # d'Autun
+Agustidunum: Agustidunum # Autun
+Alamannus: Alamannus Alamanni Alamannos Alamannis Alamannorum
+Alanos: Alanos Alanis Alanorum # les Alains
+Albige: Albige Albigae Albigensis Albiginsem Albigensim Albigensem Albigense Albiginsibus # Albi
+Alingaviensi: Alingaviensi # Langeais
+Ambaciensi: Ambaciensi Ambaciensim # Amboise
+Andecavus: Andecavi Andecavam Andecavus Andecavo Andecavos Andecavum Andecavis Andecavae # Anjou
+Andegavensis: Andegavensis Andecavensis # Angers
+Andigavus: Andegavis Andigavam Andigavus # d'Angers
+Anthiocia: Anthiocenae Anthiocia Anthiociae # Antioche
+Anthiocensis: Anthiocensis Anthyocinsis
+Anthiocinus: Anthiocinus Anthiochino
+Apamiae: Apamiae # Apamée
+Aquae: Aquae # Aix
+Aquensim: Aquensim Aquinsi Aquinsibus# Aix
+Aquileia: Aquileia Aquileiam # Aquilée
+Arareca: Ararem Arareca # Saône
+Ardoennensis: Ardoennensis # Ardennes
+Arelate: Arelate # Arles
+Arelatense: Arelatense Arelatensim Arilatensim Arelatensis Arelatinsim Arelatinsi Arelatensibus
+Arietis: Arietis # château de Cabaret (Caput Arietis)
+Arisitensim: Arisitensim # Alais?
+Argentoratinsim: Argentoratinsim Strateburgum# Strasbourg
+Argivus: Argivus Argeus # Argiens
+Arminia: Arminia Arminiorum # Arménie
+Arvernus: Arvernam Arvernus Arverni Arverna Arverno Arverne Arvernum Arvernis Arvernae Arvernorum # Arvernes
+Asia: Asia # Asie
+Assirios: Assirios # Assyriens
+Athiniensibus: Athiniensibus # des Athéniens
+Attica: Attica Attico # Attique
+Auscensis: Auscensis Ausciensim # Auch
+Audisiodorensim: Audisiodorensim Audisiodorensis # Auxerre
+Aurilianus: Aurilianis Aurilianus Auriliano # Orléans
+Aurilianensium: Aurilianensim Aurilianensem Aurilianensis Aurilianinsim Aurilianensium Aurilianense Aurilianensibus
+Avennica: Avennico Avennica Avennicae Avennici Avennecam Avennicam Avennicorum # Avennio
+Avenniensis: Avenniensis
+Avinionem: Avinionem Avenione Avennionem Avennione # Avignon
+
+Babel: Babel
+Babillonia: Babillonia Babiloniam Babilonia # Babylone
+Balatedine: Balatedine # Ballan
+Baiocassini: Baiocassini Baiocassinos Baiocassino # Baïocasse
+Benarnae: Benarnae Benarno # Béarn
+Berraum: Berrao # Barrou
+Berravensis: Berravensis
+Bilitionem: Bilitionem # Bellinzone
+Biterrensis: Biterris Biterrensim # Bézier
+Beturigum: Betoricum Bitoricum Biturigi Beturigum Biturigo Bituricas Bitoricas Biturigae Bituricam Biturigis Bitorigus Bitorigo Biturigum Biturigas Byturigi Bituriga Biturigus Bituricae Beturica Bitorex # Bourges
+Blesensis: Blesensis Blesensibus # de Blois
+Bononiae: Bononiae # Bologne
+Brannacum: Brannacum Brinnacum Brinnaco Brinnacinsis # Braine/Berny
+Bricca: Bricca # Brèches
+Bricteros: Bricteros # Bructères
+Briotreide: Briotreide # Bléré
+Brinctanorum: Brinctanorum Brittanorum # Bretons
+Brictionem: Brictionem # Bretagne
+Brittanus: Brittaniam Brittanis Britiani Brittaniis Brittanus Brittanos Brittanias Brittaniae Brittani Brittania
+Britto: Britto Brittone
+Brivam: Brivam  # Brive
+Briva-Curretia: Briva-Curretia # Brive la Gaillarde
+Brivate: Brivate # Brioude
+Brivatensim: Brivatensim Brivatinsem
+Brixis: Brixis # Reignac-sur-Indre
+Buconiam: Buconiam # Buchau/Buconie (forêt)
+Bulgiatensim: Bulgiatensim # Bongheat/Bolgiac
+Burdegala: Burdegala Burdigale # Bordeaux
+Burdigalinsis: Burdigalinsis Burdegalinsem Burdigalensis Burdegalensi Burdigalensim Burdigalinsi Burdegalensem Burdegalinsis Burdigalense Burdegalensim Burdegalensis Burdigalinsim Burdegalensibus
+Burgundia: Burgundias Burgundiam Burgundiae Burgundia Burgundio Burgundiones Burgondiones Burgundione Burgundionis Burgundionum Burgundionibus # Bugondie
+
+
+Cerate: Cerate # Céré (la Ronde)
+Cabillonnensis: Cabillonnensis Catalaunensis # Châlons (Catalaunensis: catalaunique ?)
+Cnabillonum: Cabillonno Cavellonum Cabillonum Cavillonum Cavillonno Scalonum
+Cadurcinsis: Cadurcinsis Cadurcensis Cadurcinis # Cahors
+Cadurcus: Cadurcus Cadurcorum Cadurcum Cadurcis Cadurcinum Caturcinae Cadurcinae # Quercy?
+Caesaragustanam: Caesaragustanam Caesaraugustae # Saragosse
+Casaria: Caesariam Caprariam Casariae Casaria Caesariae Caesariamquae Caesariensis Caesariensis # Césarée
+Cainan: Caione Cainan Caino Cainonensem Cainoninse # Chinon
+Cala: Calam # Chelles
+Calensi: Calensi Calensim
+Calliciense: Calliciense Calliciensibus
+Calmes: Calmes
+Calatonno: Calatonno # Catalonique
+Calvariae: Calvariae #Calvaire
+Camaracum: Camaracum Camaracense # Cambrzi
+Campanensis: Campanensis
+Campania: Campania Campaniae # Cologne? la Champagne?
+Canaonem: Canaonem # Canaan
+Cantobennici: Cantobennici Cantabennensi # Chantoin
+Carbonariam: Carbonariam # Charbonnière
+Carcasonam: Carcasonam Carcasonensibus # Carcassone
+Cares: Cares # le Cher
+Carnotenum: Carnotenum Carnotenis Carnotensim Carnotenorum Carnotinae Carnotino Carnotenae Carnotena # Chartres
+Carpitania: Carpitaniam Carpitania # Carpétanie
+Cartaginem: Cartaginem Cartaginensis Chartaginensis Carthaginensibus # Carthage
+Catthis: Catthis # Chattes
+Cavillonensim: Cavelonensis Cavillonensim Cavellionensim # Cavaillon
+Chrononensim: Chrononensim # Cournon
+Chunus: Chunus Chus Chunis Chuni Chundo Chunos Chunorum # Huns
+Cinnomannicum Cinomanensim Cinomannis Cinomannica Cinomannico Cinomannicis # Maine
+Caenomannicae: Cenomannorum: Cenomanicos Cenomannorum Cinomannorum Caenomannicae Caenomannici Caenomannensis # le Mans
+Cisomagensis: Cisomagensi # Ciran
+Clavati: Clavati # Lugduni Clavati -> Laon
+Clysma: Clysma # Clysma
+Colonia: Colonia Coloniae # Cologne (Agrippinensi)
+Condatensis: Condatinsem Condatensi Condatensim Condatensis # Candes
+Confluentis: Confluentis # (castrum) Koblentz
+Conpendio: Conpendio # Compiègne
+Iuli-Consorannis # Couserans
+Constantinam: Constantinam Constantinae # Coutances?
+Constantinopuli: Constantinopuli Constantinopoli Constantinopolim Constantinopolitanam
+Convenas: Convenas Convenicae Convenassic # Comminges?
+Corinthiis: Corinthiis # Corinthe
+Cornutium: Cornutium # Corps-Nuds
+
+Deinsim: Deinsim # Die
+Dispargum: Dispargum # Duisburg?
+Divione: Divione Divionensim Divionensem Divionensi Divioninsis Divionensis # Dijon
+Divitiam: Divitiam # Deutz
+Dolensim: Dolensim # Déols
+Dolus: Dolus # Dolus
+Dorononiam: Dorononiam # Dordogne
+Dunense: Dunense Dunenses Dunensem Dunensibus # (castrum) Chateaudun
+
+Ebredunensim: Ebredunensim Ebredunensem Ebredonense Ebredunensis # Embrun
+Ecolesinam: Ecolesinam Ecolisinam Ecolisnae Ecolisnam # Angoulême
+Ecolisinensis: Ecolisinensim Ecolesinensis Ecolesinensim Ecolesenensibus Equolisinensis # d'Angoulême
+Eber: Eber # Eber
+Egypti: Egypti # Egypte
+Elarius: Elarius Elarium Elacrem # Alliers
+Eseram: Eseram # Isère
+Evina: Evina # Esvres
+
+Floriacum: Floriacum # Fleury
+
+Gabalitana: Gabalitana Gaballitani Gabalitanae Gabalitani Gabalitanorum # Gévaudan
+Galileis: Galileis Galleis # Galilée
+Gallitia: Galliciam Gallitia Gallitiam # Galice
+Gallia: Gallia Galliarum Galliae Gallias Galliis
+Gallicanis: Gallicanis # Gaulois
+Galliciensim: Galliciensim Galliciensis Galliciensibus
+Gallus: Gallo Gallum Gallus Galli
+Garonna: Garonnam # Garonne
+Ghotia: Ghotia # Gothie
+Gothus: Gothi Gothos Gothis Gotis Gothus Gothum Gothorum # Goths
+Graeci: Graeci # Grecs
+Gratianopolitana: Gratianopolitanam # Grenoble
+Gredonensis: Gredonensis # Grèzes
+
+Hebreae: Hebreae Hebraeos Hebraei Hebraeo Hebraeam # Hébreux
+Helosinsis: Helosinsis # Eauze
+Hierusalem: Hierusalem Hierusolimae Hierusolimis Hierusolima Hierusolimam Hierusolimorum Hierusolimitanus # Jérusalem
+Hispanum: Hispanum Hispanis Hispaniis Hispanorum Hispaniorum Hispanias Hispaniam Hispaniae Hispani # Espagne
+
+Iocundiacensis: Iocundiacensim
+Idomeorum: Idomeorum # Iduméens
+Iciodoro: Iciodoro Isiodorensis # Yzeures
+Ienubam: Ienubam # Genève
+Ismahelitis: Ismahelitis # Ismaélites
+Israhel: Israhel Israhelitarum Israheliticum Israheliticorum Israhelitae Israhelitici
+Itala: Itala
+Italia: Italia Italiam Italiae Italici # Italie
+Iuliensis: Iuliensis
+
+Lacidaemoniis: Lacidaemoniis # Lacédémoniens
+Laedorum: Laedorum # la Lydie
+Lambrus: Lambrus # Lambres
+Langobardum: Langobardos Langobardum Langobardi Langobardus Langobardis Langobardorum
+Latinus: Latinus Latini Latinorum
+Latium: Latium # Latium
+Latta: Latta # Latta
+Laudiacum: Laudiacum Laudiaco # Montlouis sur Loire
+Lemanem: Lemanem # Limagne
+Lemovicinum: Lemovicinum Lemovicinae Lemovicinus Lemovicino Lemovicinam Limovicino Lemovicinis Limovicinum Lemovecas Limovicas Lemovicas Limane # Limoges
+Licaniacensis: Licaniacensis
+Ligeris: Ligeris Ligerem
+Lingonas: Lingonas Lingonicam Lingonicae Lingonicis Lingonici # Langres
+Lixoensis: Lixoensis # Lisieux
+Lovolautrum: Lovolautro Lovolautrum # Volorre
+Lugdunensis: Lugdunensis Lugdonensim Lugduninse Lugduninsis Lugdunensim Lugdunense Lugdunensi Lugdunensibus
+Lugdunum: Lugduno Lugdunum Lugdunos Lugduni
+Lucas: Lucas # Loches
+Luciliacus: Luciliacus # Luzillé
+
+
+Machao: Machao Macco # ?
+Macedoniis: Macedoniis # Macédoniens
+Mantolomaus: Mantolomaus Montalomaginsim # Manthelan
+Manatensis: Manatensis
+Marilegio: Marilegio Mariligensis # Marlheim
+Maroialensi: Maroialensi Maroialensim # Mareuil-sur-Cher
+Matiscone: Matiscone Matiscensim Matescense Matascensem # Mâcon
+Mauriopes: Mauriopes # Mauriopes
+Mauritaniam: Mauritaniam # Mauritanie
+Mecledonensem: Mecledonensem Megledonense # Melun
+Mediconno: Mediconno # Mosnes/Mougon
+Mediolaninsibus: Mediolaninsibus # Milan
+Mediolanensis: Mediolanensis Mediolanensem Mediolanensim # Milan ou Chateaumeillant
+Meduanae: Meduanae  # la Mayenne
+Meledus: Meledus Meldensem Melitensim Meldensi Meldensim Mel # Meaux
+Memmatinsis: Memmatinsis # Mende
+Meroliacensae: Meroliacensae Meroliacensis # Merliac
+Mettensis: Mettensis Mettensim Metinsis Metensem Mettinsem Metensim Metinsim Mittense # Metz
+Musella: Musella Musellam # Moselle
+
+Mimate: Mimate # Mende
+Momotiacensis: Momotiacensis Mogontiacum # Mayence/Mouzon
+Mustias: Mustias #?
+
+Namnetas: Namnetas Namnetico Namneticam Namneticis Namneticum Namneticae Namnitico Namneticos Namneticorum # Nantes
+
+Narbonam: Narbonam Narbonae Narbonensem Narbonensim # Narbonne
+Nemausus: Nemausus Nemausum Nemausensis # Nîmes
+Nemptudoro: Nemptudoro # Nanterre
+Nevernus: Neverno Nevernensem # Nevers
+Nicenum: Niceam Nicenum Nicaene # Nicée
+Niceam: Niceam Nicensim Nicensis # Nice
+Nigrem: Nigrem # (mons) Nigremont
+Nilus: Nilus Niliculae # Nil
+Nineven: Nineven # Ninive
+Ninivitarum: Ninivitarum Ninnivitarum # Ninivites
+Nisebenus: Nisebenus Nisebeno # Nisibe
+Nivisium: Nivisium # Neuss
+Nocito: Nocito # Nogent
+Nunnichio: Nunnichio # Nonnichius
+Novimpopulanae: Novimpopulanae # Novimpopula
+Noviliacus: Noviliacus # Neuilly-le-Brignon
+Novigentum: Novigentum # Nogent-sur-Marne
+
+Octavum: Octavum # Ozon
+Onestrudem: Onestrudem # Unstrut
+Orbaniaco: Orbaniaco # Orbigny
+Oscarum: Oscarum Oscaram # Ouche
+Osser: Osser # Osser
+
+Pannonia: Pannoniis Pannoniae Pannonia # Pannonie
+Parius: Parius #
+Parisius: Parisius Parisios Pariseus # Parisiens
+Parisiacus: Parisiaci Parisiacae Parisiaco Parisiacus Parisiaca Parisiacam Parisiacis Parisiorum
+Pathmos: Pathmos # Pathmos
+Pectava: Pectava Pectavina Pectavum Pictavus Pectavis Pectavo Pictavi Pectavam Pectavi Pectavos Pectavus Pectavae Pictava Pectavorum # Poitiers
+Pectavensis: Pectavensis Pectavense Pectavinse Pictavensis Pictavensi Pectavensi Pectavinsim Pectavensem Pictavinsis Pictavensim Pectavensibus # de Poitiers
+Persida: Persi Persida Persas Persarum Persis
+Persi-Armeni: Persi-Armeni # Perse Arménie
+Petrocoricum: Petrocoricae Petrocoricum Petrogoricae Petrogoricum Petrocoricis Petrocoris # Périgueux
+Phiahiroth: Phiahiroth # Phiahiroth
+Pirineis: Pirineis Pyrenius # Pyrénées
+Ponticonem: Ponticonem # Ponthion
+Provincia: Provincia Provinciae Provinciam # Provence
+
+Randanensim: Randanensim # Randan
+Remus: Remus Remensem Remense Remensim Remensis Rimensium # Reims
+Regensim: Regensim # Riez
+Rhedonicus: Redonicum Rhedonicus Rhedonicis Redonicam Redonensis # Rennes
+Rhenus: Rheu Rhenus Rheno Rhenum # Rhin
+Rhodanus: Rhodani Rodano Rhodanus Rhodanum Rodanus # Rhône
+Rigoialinsim: Rigoialinsim # Reuil?
+Rodomago: Rhodomago Rodomago Rotomagensis Rothomagensim Rothomagensis Rothomaginse Rodoialensim Rotoialinsim # Rouen
+Roma: Roma Romam Romae Romanorum Romanam Romanum Romanae Romani Romanis  Romano Romanos # Rome
+Romaniacum: Romaniacum # Romagnac
+Rosontinse: Rosontinse # Rosson?
+Rotomago: Rotomago # Pont-de-Ruan
+Rubrum mare: Rubrum Rubro Rubri mare # Mer Rouge
+Rutinus: Rutini Rutino Rutinus Rutena Ruteni Rutina Rutinae Rutinam Rutenae Rutenorum Rutenensis # Rodez
+
+Sabaria: Sabariam Sabariae # Sabaria, Stein-am-Anger
+Sadduceae: Sadduceae # Saducéens
+Santonas: Santo/Sorcynas Sanctonas Sanctonici Santonicae Santonico Santonicum Sanctonicae Sanctonicam Sanctonicum Sanctonicis Sanctonicorum # Saintes
+Sauriciacum: Sauriciacum # Sorci
+Saxonis: Saxonis Saxone Saxonibus Saxones Saxo Saxonum Saxenum
+Scaldem: Scaldem # Escaut
+Scyciae: Scyciae # Scythie
+Sellensim: Sellensim # Selle
+Septimania: Septimania Septimaneam Septimaniam Septemaniae Septimina Septiminae
+Sequanam: Sequanam Sygona # la Seine
+Sexonas: Sexonas Sessionas Sessonas Sessionica Sessionica Sessionico Sessionici Sessionicae # Soissons
+Sicilia: Siciliam # Sicile
+Sicionius: Sicionius Siggonis Sicionis # Sicyoniens
+Sigusium: Sigusium # Suze
+Silvanectensi: Silvanectensi Silvanectensim Silvanectensis Silvanectinse Silvanectis # Senlis
+Sinonicae: Sinonicae Synonicum # Sens
+Siriae: Siriae # Syrie
+Sisciensis: Sisciensis # de Sissek
+Sodomae: Sodomae Sodomis # Sodome
+Solonacensis: Solonacensi # Saunay
+Spanias: Spanias Spaniis Spanis Spaniam # Espagne
+Stablonem: Stablonem # Estoublon
+Stampensim: Stampensim Stampinse # Etampes
+Sueborum: Suebi Sueborum Suavorum # Suèves
+Sumenam: Sumenam # la Somme
+Syrorum: Syrorum # des Syriens
+
+Tarabannensibus: Tarabannensibus # Térouanes
+Tauredune: Tauredune Taureduno # Tauredune?
+Tausiriaco: Tausiriaco # Turé? Toiselay?
+Ternoderinsim: Ternoderinsim # ?
+Theifalus: Theifalus Theifalorum # Theifales
+Thoringus: Thoringis Thoringus Thoringi Thoringiam Thoringia Thoringorum # Thuringe
+Ticinum: Ticinum Ticinensis # Pavie (Italie)
+Thracias: Thracias
+Treiectinsem: Treiectinsem # Maastricht
+Treverus: Treverus Treveris Treverorum Treverensis Treveris # Trèves
+Turonensis: TURONENSIS
+Tolidum: Tolidum Toletum # Tolède
+Tholosa: Tolosae Tholosano Tholosam Tholosa Tholosae Tholosana Tholosanorum Tolosanis # Toulouse
+Toronica: Toronicae Toronicis Toronicos Turonicis Toronicam Turonico Toronica Thoronici Turonicum Turonici Thoronica Toronicum Toronici Toronico Toronicus Turonicae Toronice Turonica Turonicus Thoronicae Turonicam
+Tornomagensi: Tornomagensi
+Tornacum: Tornacum Thornacinsis Tornacensis Tornacensi Thornaco # Tournay
+Tricassinorum: Trecas Tricassinorum Tricassinum # Troyes
+Tulbiacensis: Tulbiacensis Tulbiacensim # Tolbiac
+Tungrus: Tungrus Tungrorum # Tongres
+Turonus: Turonus Thoronus Toronus Toronum
+Tusciae: Tusciae # Toscane
+
+Ucetica: Ucetica Ucecensis # Uzès
+Ugernum: Ugernum # Beaucaire
+Uldam: Uldam # Oust (rivière)
+Urbia: Urbiam rbiensim # Orge
+
+Vabrense: Vabrense Vabrensim # Woëvre
+Valentiam: Valentiam # Valence
+Vappinsis: Vappinsis # de Gap
+Vasatinsis: Vasatinsis Vasatensem Vasatensis # Bazas
+Vasconiam: Vasconiam Wascones Wasconibus # Gascogne
+Vasso: Vasso # temple
+Vellavae: Vellavae Villavo Villavis Villavum # Velay
+Veneticae: Veneticae Veneticam Vinitico # Vannes
+Venitus: Venitus Vinitico # Vannes
+Veranus: Veranus Veranum Vernao # Vernou-sur-Brenne
+Vircellis: Vircellis Vercellensim # Verceil
+Vicinoniae: Vicinoniae Vicinoniam # Vilaine
+Victuriacum: Victuriacum Victuriaci Victuriaco Victuriacense # Vitry
+Viennae: Viennae Vingennam Vigennam Viennam Viennense Viennensis # Vienne
+Vinciensis: Vinciensis # Vence
+Vindocino: Vindocino # Vendôme
+Viridunum: Viridunum Viredunensim Virdunensis Veredunensis Viridunensim Viredunensis Viredunensim Virdunensis Veredunensis Viridunensim Viredunensis Veredunensem Veridunense # Verdun
+Visorontiam: Visorontiam # Véseronce
+Vivariensim: Vivariensim # Vivarais
+Vogladense: Vogladense Vogladinse # Vouglé
+Vosagum: Vosagum Vosagensim # Vosges
+
+Wandalini: Wandalini Wandali Wandalis # Vandales
+Wandalorum: Wandalorum
+
