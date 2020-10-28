@@ -20,11 +20,13 @@ $ pip install -r requirements.txt
 
 ## Reproducing results
 
-1. Generating graphs.
-Run `$ python3 latechclfl2020/models/scripts.py`
-2. Generating character feature table in paper.
-Run `$ python3 latechclfl2020/models/reconstruction.py` 
-3. Generating Brynhildr ego-graphs.
-Run `$ python3 latechclfl2020/models/paper/graph_visualisation.py`
-4. Corpus observation.
-Run `$ python3 latechclfl2020/models/paper/corpus_observation.py`
+1. Download resources
+Run `$ python3 -m -m latechclfl2020.models latechclfl2020/models/initiate.py`
+2. Generating graphs.
+Run `$ python3 -m latechclfl2020.models latechclfl2020/models/scripts.py`
+3. Generating character feature table in paper.
+Run `$ python3 -m latechclfl2020.models latechclfl2020/models/reconstruction.py` 
+4. Generating Brynhildr ego-graphs.
+Run `$ python3 -m latechclfl2020.models.paper latechclfl2020/models/paper/graph_visualisation.py`
+5. Corpus observation.
+Run `$ python3 -m latechclfl2020.models.paper latechclfl2020/models/paper/corpus_observation.py`

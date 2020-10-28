@@ -7,8 +7,8 @@ from collections import defaultdict
 
 from latechclfl2020 import utils, constants, PACKDIR
 from latechclfl2020.models.texts import Work
-from latechclfl2020.dlh.data import compute_clusterise_proper_nouns,\
-    get_parsed_dlh_books, get_clusterised_proper_nouns, choose_lemma_from_forms
+from latechclfl2020.dlh.data import get_parsed_dlh_books, \
+    get_clusterised_proper_nouns, choose_lemma_from_forms
 
 __author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 
