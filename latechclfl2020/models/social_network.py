@@ -107,6 +107,18 @@ class TextSocialNetwork(nx.Graph):
         # plt.savefig(f"{name}.png", dpi=1000)
         # plt.savefig(f"{name}.pdf")
 
+    @property
+    def text_occurrences(self):
+        """
+
+        """
+        if not self.characters:
+            raise ValueError("Load character names")
+        if not self.text:
+            raise ValueError("Load text")
+
+        return dict.fromkeys(self.characters, 0)
+
 
 class VolsungaSocialNetwork(TextSocialNetwork):
     def __init__(self):
@@ -125,6 +137,7 @@ class VolsungaSocialNetwork(TextSocialNetwork):
                     for pair in possible_pairs:
                         if utils.one_of_them_in(self.characters[pair[0]], sent) and utils.one_of_them_in(
                                 self.characters[pair[1]], sent):
+                            print(pair)
                             cooccurring[pair] += 1
         return cooccurring
 
@@ -155,6 +168,24 @@ class VolsungaSocialNetwork(TextSocialNetwork):
                             cooccurring[pair] += 1
             cooccurring_by_chapters.append(cooccurring)
         return cooccurring_by_chapters
+
+    @property
+    def text_occurrences(self):
+        """
+
+        """
+        if not self.characters:
+            raise ValueError("Load character names")
+        if not self.text:
+            raise ValueError("Load text")
+        occurrences = super(VolsungaSocialNetwork, self).text_occurrences
+        for character in self.characters:
+            for chapter in self.text:
+                for para in chapter:
+                    for sent in para:
+                        if utils.one_of_them_in(self.characters[character], sent):
+                            occurrences[character] += 1
+        return occurrences
 
 
 class NibelungenliedSocialNetwork(TextSocialNetwork):
@@ -252,6 +283,24 @@ class NibelungenliedSocialNetwork(TextSocialNetwork):
             plt.clf()
         return self.chapters
 
+    @property
+    def text_occurrences(self):
+        """
+
+        """
+        if not self.characters:
+            raise ValueError("Load character names")
+        if not self.text:
+            raise ValueError("Load text")
+        occurrences = super(NibelungenliedSocialNetwork, self).text_occurrences
+        for character in self.characters:
+            for chapter in self.text:
+                for para in utils.partition(chapter, 3 * 4):
+                    para = " ".join([" ".join(long_line) for long_line in para])
+                    if utils.one_of_them_in(self.characters[character], para):
+                        occurrences[character] += 1
+        return occurrences
+
 
 class DLHSocialNetwork(TextSocialNetwork):
     def __init__(self):
@@ -325,3 +374,22 @@ class DLHSocialNetwork(TextSocialNetwork):
             plt.savefig(os.path.join(self.chapter_directory, f"{name}_{i + 1}.pdf"))
             plt.clf()
         return self.chapters
+
+    @property
+    def text_occurrences(self):
+        """
+
+        """
+        if not self.characters:
+            raise ValueError("Load character names")
+        if not self.text:
+            raise ValueError("Load text")
+        occurrences = super(DLHSocialNetwork, self).text_occurrences
+        for character in self.characters:
+            for book in self.text:
+                for para in book:
+                    for sent in para:
+                        sent = [word for s in sent for word in s]
+                        if utils.one_of_them_in(self.characters[character], sent):
+                            occurrences[character] += 1
+        return occurrences

@@ -19,6 +19,7 @@ correspondences = [
     make_dict(vol="Atli", nib="Etzel", dlh="Attila"),
     make_dict(nib="Alberich", dlh="Alaricus"),
     make_dict(nib="Dietrich", dlh="Theodoricus"),
+    make_dict(vol="Högni", nib="Hagen"),
     make_dict(vol="Grímhildr", nib="Kriemhild"),
     make_dict(vol="Reginn", dlh="Ragnacharius"),
     make_dict(vol="Fáfnir", dlh="Farro"),
@@ -35,6 +36,9 @@ for correspondence in correspondences:
 table = make_table(features_lines, "Graph features for 10 characters that occur at least in two of the three "
                                    "studied texts. Here d is for degree centrality, e for eigenvector centrality, "
                                    "c for closeness centrality, b for betweeness centrality and "
-                                   "n for the number of neighbours (i.e. the degree).")
-print(character_feature_ranks)
-print(table)
+                                   "n for the number of neighbours (i.e. the degree), "
+                                   "r for the rank of highest degrees.")
+
+if __name__ == "__main__":
+    print(character_feature_ranks)
+    print(table)

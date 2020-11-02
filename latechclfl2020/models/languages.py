@@ -11,4 +11,3 @@ class Language(enum.Enum):
     latin = enum.auto()
     middle_high_german = enum.auto()
     old_norse = enum.auto()
-

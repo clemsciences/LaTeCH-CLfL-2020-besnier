@@ -3,11 +3,15 @@ Features extracted from character graphs that are used in the paper.
 """
 
 import collections
+import random
 from typing import Dict, Union
 
-import networkx as nx
 import matplotlib.pyplot as plt
+import networkx as nx
+import numpy
+
 from latechclfl2020.constants import PUNCTUATIONS
+from latechclfl2020.models.social_network import TextSocialNetwork
 from latechclfl2020.models.texts import Work, make_dict
 from latechclfl2020.models.scripts import load_generated_graph, merge_graphs
 
@@ -16,6 +20,10 @@ from latechclfl2020.volsunga import data as vol_data
 from latechclfl2020.dlh import data as dlh_data
 
 __author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
+
+
+random.seed(1994)
+numpy.random.seed(1994)
 
 
 def display_general_features():
@@ -64,7 +72,9 @@ def display_general_features():
     # region graph analysis
     graphs = load_graphs_for_paper()
     display_graph_features(graphs[Work.NIB])
+    display_character_features(graphs[Work.NIB])
     display_graph_features(graphs[Work.VOL])
+    display_character_features(graphs[Work.VOL])
     display_graph_features(graphs[Work.DLH])
     # endregion
 
@@ -122,6 +132,10 @@ def display_graph_features(graph: nx.Graph):
     print(f"betweeness centrality {sort_dict(nx.betweenness_centrality(graph))}")
 
 
+def display_character_features(graph: TextSocialNetwork):
+    print(sort_dict(graph.text_occurrences))
+
+
 def compute_orders_for_paper(graphs: Dict[Work, nx.Graph], correspondences):
     d = {}
     for work in Work:
@@ -175,16 +189,18 @@ def analyze_characters(character_lemmata: Dict[Work, Union[str, None]], graphs: 
                 for neighbour in graph.neighbors(lemma):
                     neighbours.append(neighbour)
                     # analyse_character(neighbour, graph)
+
                 # print(graphs[work].degree)
-                centrality_features = analyse_character(lemma, graph)
+                centrality_features, degree_rank = analyse_character(lemma, graph)
                 # print(work, lemma, centrality_features, f"degree {len(neighbours)} neighbours: {neighbours}")
-                d[work] = [lemma, *centrality_features, len(neighbours)]
+                d[work] = [lemma, *centrality_features, len(neighbours), degree_rank[0]]
     return d
 
 
 def analyse_character(character_lemma: Union[str, None], graph: nx.Graph, verbose=False):
     if character_lemma:
-        degree_centrality = [value for (key, value) in nx.degree_centrality(graph).items()
+        degree_centrality_d = nx.degree_centrality(graph)
+        degree_centrality = [value for (key, value) in degree_centrality_d.items()
                              if key == character_lemma]
         eigenvector_centrality = [value for (key, value) in nx.eigenvector_centrality(graph).items()
                                   if key == character_lemma]
@@ -192,6 +208,7 @@ def analyse_character(character_lemma: Union[str, None], graph: nx.Graph, verbos
                                 if key == character_lemma]
         betweeness_centality = [value for (key, value) in nx.betweenness_centrality(graph).items()
                                 if key == character_lemma]
+        degree_rank = [i + 1 for i, j in enumerate(sort_dict(degree_centrality_d)) if j[0] == character_lemma]
         if verbose:
             print("degree centrality", character_lemma, *degree_centrality)
             print("eigenvector centrality", character_lemma, *eigenvector_centrality)
@@ -200,7 +217,7 @@ def analyse_character(character_lemma: Union[str, None], graph: nx.Graph, verbos
         return [*degree_centrality,
                 *eigenvector_centrality,
                 *closeness_centrality,
-                *betweeness_centality]
+                *betweeness_centality], degree_rank
 
 
 # region table
@@ -212,7 +229,7 @@ def make_line(line):
                  else str(item) for item in line[work]]
             res.append(" & ".join(l))
         else:
-            res.append(" & ".join(["missing", "-", "-", "-", "-", "-"]))
+            res.append(" & ".join(["missing", "-", "-", "-", "-", "-", "-"]))
     return " & ".join(res)+" \\\\ \\hline \n"
 
 
@@ -223,10 +240,10 @@ def make_table(lines, caption):
     \\caption{"""+caption+"""}
     \\resizebox{\\textwidth}{!}{%
     \\label{tab:results}
-    \\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+    \\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
     \\hline
-    \\multicolumn{6}{|c|}{\\textbf{DLH}} & \\multicolumn{6}{|c|}{\\textbf{VÖL}} & \\multicolumn{6}{|c|}{\\textbf{NIB}} \\\\ \\hline\n
-    Name & d & e & c & b & n & Name & d & e & c & b & n & Name & d & e & c & b & n \\\\\\hline 
+    \\multicolumn{7}{|c|}{\\textbf{DLH}} & \\multicolumn{7}{|c|}{\\textbf{VÖL}} & \\multicolumn{7}{|c|}{\\textbf{NIB}} \\\\ \\hline\n
+    Name & d & e & c & b & n & r & Name & d & e & c & b & n & r & Name & d & e & c & b & n & r \\\\\\hline 
     
     """
     table_end = """
