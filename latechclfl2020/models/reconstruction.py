@@ -33,7 +33,7 @@ graphs = load_graphs_for_paper()
 for correspondence in correspondences:
     features_lines.append(analyze_characters(correspondence, graphs))
 
-table = make_table(features_lines, "Graph features for 10 characters that occur at least in two of the three "
+table = make_table(features_lines, "Graph features for 11 characters that occur at least in two of the three "
                                    "studied texts. Here d is for degree centrality, e for eigenvector centrality, "
                                    "c for closeness centrality, b for betweeness centrality and "
                                    "n for the number of neighbours (i.e. the degree), "
