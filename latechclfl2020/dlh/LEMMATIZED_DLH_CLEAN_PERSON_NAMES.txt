@@ -89,8 +89,7 @@ Ascyla: Ascylam # Aschila
 Aser: Aser
 Asteriolus: Asteriolus Asteriolum Asteriolo # Astériole
 Athalocus: Athalocus
-Athanagilde: Athanagilde Athanachilde
-Athanagildus: Athanagildus Athanaeldo Athanaeldi # Athanaguilde
+Athanagildus: Athanagildus Athanaeldo Athanaeldi Athanagilde Athanachilde# Athanaguilde
 Athanaricus: Athanarici Athanarico Athanaricus
 Attalus: Attalus Attalum Attali Attalo # Attale
 Attila: Attila Attela Attilanem
