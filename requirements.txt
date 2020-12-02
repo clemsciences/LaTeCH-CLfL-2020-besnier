@@ -8,7 +8,7 @@ matplotlib
 networkx==2.4
 # networkx==2.5
 norsecorpus==1.0.2
-notebook==6.0.3
+notebook==6.1.5
 numpy==1.19.1
 requests==2.24.0
 scikit-learn==0.23.1
