@@ -1,6 +1,22 @@
 # LaTeCH-CLfL-2020
 
-Repository associated with *History to Myths: Social Network Analysis for Comparison of Stories over Time* paper.
+Repository associated with [*History to Myths: Social Network Analysis for Comparison of Stories over Time* paper](https://www.aclweb.org/anthology/2020.latechclfl-1.1/).
+
+## Citation
+```
+@inproceedings{besnier-2020-history,
+    title = "History to Myths: Social Network Analysis for Comparison of Stories over Time",
+    author = "Besnier, Cl{\'e}ment",
+    booktitle = "Proceedings of the The 4th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature",
+    month = dec,
+    year = "2020",
+    address = "Online",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.latechclfl-1.1",
+    pages = "1--9",
+    abstract = {We discuss on how related stories can be compared by their characters. We investigate character graphs, or social networks, in order to measure evolution of character importance over time. To illustrate this, we chose the Siegfried-Sigurd myth that may come from a Merovingian king named Sigiberthus. The Nibelungenlied, the V{\"o}lsunga saga and the History of the Franks are the three resources used.},
+}
+```
 
 ## Data
 Texts:
