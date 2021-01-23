@@ -1,5 +1,7 @@
 # LaTeCH-CLfL-2020
 
+![PyPI](https://img.shields.io/pypi/v/latechclfl2020besnier)
+
 Repository associated with [*History to Myths: Social Network Analysis for Comparison of Stories over Time* paper](https://www.aclweb.org/anthology/2020.latechclfl-1.1/).
 
 ## Citation
@@ -31,6 +33,13 @@ Texts:
 
 Tested on Windows 10 and Ubuntu 16.04. 
 Tested with Python 3.7 and 3.8.
+
+Install with pip
+```shell script
+$ pip install latechclfl2020besnier
+```
+
+or download source 
 
 ```shell script
 $ git clone https://github.com/clemsciences/LaTeCH-CLfl-2020-besnier.git
