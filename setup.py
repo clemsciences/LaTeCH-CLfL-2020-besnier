@@ -5,6 +5,8 @@ from setuptools import find_packages, setup
 
 CURDIR = os.path.abspath(os.path.dirname(__file__))
 
+EXCLUDE_FROM_PACKAGES = []
+
 DEPENDENCIES = ["beautifulsoup4>=4.9.1",
                 "cltk>=0.1.111",
                 "greek-accentuation>=1.2.0",
@@ -25,7 +27,7 @@ with io.open(os.path.join(CURDIR, "README.md"), "r", encoding="utf-8") as f:
 
 setup(
     name='latechclfl2020besnier',
-    version='1.0.4',
+    version='1.0.5',
     url='https://www.clementbesnier.fr/dlh-vol-nib',
     license='Creative Commons Attribution 4.0 International Licence',
     author='Clément Besnier',
@@ -33,7 +35,7 @@ setup(
     description='',
     long_description=README,
     long_description_content_type="text/markdown",
-    packages=find_packages(),
+    packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
     keywords=["old-norse", "middle-high-german", "latin", "network analysis"],
     scripts=[],
