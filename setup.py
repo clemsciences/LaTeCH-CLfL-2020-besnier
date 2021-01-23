@@ -27,7 +27,7 @@ with io.open(os.path.join(CURDIR, "README.md"), "r", encoding="utf-8") as f:
 
 setup(
     name='latechclfl2020besnier',
-    version='1.0.5',
+    version='1.0.6',
     url='https://www.clementbesnier.fr/dlh-vol-nib',
     license='Creative Commons Attribution 4.0 International Licence',
     author='Clément Besnier',
