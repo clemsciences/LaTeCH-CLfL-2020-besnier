@@ -7,7 +7,7 @@ CURDIR = os.path.abspath(os.path.dirname(__file__))
 
 DEPENDENCIES = ["beautifulsoup4==4.9.1",
                 "bs4==0.0.1",
-                "cltk==0.1.111",
+                "cltk>=0.1.111",
                 "greek-accentuation==1.2.0",
                 "jupyter",
                 "lxml",
@@ -26,7 +26,7 @@ with io.open(os.path.join(CURDIR, "README.md"), "r", encoding="utf-8") as f:
 
 setup(
     name='latechclfl2020besnier',
-    version='1.0.2',
+    version='1.0.3',
     url='https://www.clementbesnier.fr/dlh-vol-nib',
     license='Creative Commons Attribution 4.0 International Licence',
     author='Clément Besnier',

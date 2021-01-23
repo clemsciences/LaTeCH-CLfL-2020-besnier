@@ -1,6 +1,6 @@
 beautifulsoup4==4.9.1
 bs4==0.0.1
-cltk==0.1.111
+cltk>=0.1.111
 greek-accentuation==1.2.0
 jupyter
 lxml
