@@ -1,29 +1,28 @@
 
-Andvarafors: waterfall of Andvari
-Ása Ásum Æsirnir Æsir
-Ásgarði
+Andvarafors: Andvarafors # waterfall of Andvari
+# Ása Ásum Æsirnir Æsir
+Ásgarðr: Ásgarði # Asgard
 
-Brávelli: Brávöllr (place in Asgard)
+Brávelli: Brávöllr # (place in Asgard)
 Busiltjörn: Busiltjörn # river
 
 Danmörk: Danmörku Danmörk # Denmark
 
 Fjóni: Fjóni # Fyn
-Frakkland: Frakklands
+Frakkland: Frakklands # France
 
-Garða(konungi): Russland
+Garða: Garða # Russland (konungi)
 Gautland: Gautland Gautlands Gautlandi # Gautland
 Gnitaheiðr: Gnitaheiðr Gnitaheiði # where Fafnir lives
 Gnípalundr: Gnípalundi # port
-Grikkland: Grikklands
+Grikkland: Grikklands # Greece
 Grind: Grindum # place
 
 Heðinsey: Heðinsey #
 Hindarfjall : Hindarfjall # La montage de la biche
 Hlymdalir: Hlymdali # where Gunnar, Högni and Sigurd ride
-Hringstaði: Ringsted in Denmark
+Hringstaði: Ringsted # in Denmark
 Húnaland: Húnaland Húnalandi # country of the Huns
-Hýnir: Hýnir # Huns
 
 Láganes: Láganesi #
 
@@ -43,6 +42,5 @@ Valbjörg: Valbjörg
 Vínbjörg: Vínbjörg
 Varinsey: Varinsey #
 Varinsfjörðr: Varinsfjörðr #
-Víkingr: Víkingar # Vikings
 
 Þrasnes: Þrasnesi #

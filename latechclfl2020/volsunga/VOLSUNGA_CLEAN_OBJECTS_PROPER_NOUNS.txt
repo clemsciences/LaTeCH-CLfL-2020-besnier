@@ -4,5 +4,6 @@ Gramr: Gramr Gram # sword of Sigurd
 Hugrún: Hugrúnar #
 Hrotti: Hrotta # sword of Fafnir that Sigurd gets
 Málrún: Málrúnar #
+Riðill: Riðill # sword
 Sigurðarkviða: Sigurðarkviðu # name of poem
 

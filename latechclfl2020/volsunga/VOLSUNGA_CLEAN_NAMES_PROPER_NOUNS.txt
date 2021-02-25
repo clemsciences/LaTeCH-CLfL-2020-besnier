@@ -18,7 +18,7 @@ Breði: Breði # slave of Skadhi
 Brynhildr: Brynhildr Brynhildar Brynhildi # queen of Iceland
 Buðli: Buðla Buðli # father of Brynhildr
 
-Dvalinn: Dvalins # a dwarc
+Dvalinn: Dvalins # a dwarf
 
 Erpr: Erp Erpr # child of Jonakr and Gudhrun
 Eylimi: Eylimi Eylima # father of Hjördhis
@@ -29,7 +29,6 @@ Fáfnir: Fáfnir Fáfni Fáfnis # Fáfnir
 Fengr: Feng # an other Odin's name
 Fjölnir: Fjölni Fjölnir # an other Odin's name
 Fjörnir: Fjörnir # Gunnar talked to this man
-Frakkar: Frakkar # Franks
 Frekasteinn: Frekasteinn # one of the wolves that is with Odin
 Frigg: Frigg # Odin's wife
 
@@ -65,7 +64,7 @@ Hjörvarð: Hjörvarð #
 Hnikarr: Hnikar # Odin
 Höðbroddr: Höðbroddr Höðbrodd Höðbroddi Höðbrodds # son of Granmarr
 Hreiðmarr: Hreiðmarr Hreiðmari Hreiðmars # father of Fafnir, Reginn and Otr
-Hrímnir: Hrímnir Hrímnis #giant
+Hrímnir: Hrímnir Hrímnis # giant
 Hringr: Hrings # king
 Hroptr: Hroptr #
 Hundingr: Hundingr Hundings # father of Lyngvi
@@ -97,11 +96,9 @@ Rán: Ránar #
 Randvé: Randvé Randvér Randvés # son of Jörmunrekr
 Reginn: Reginn Regins # son of Hreidhmarr
 Rerir: Rerir Reris # son of Sigi
-Riðill: Riðill # sword
 Rínar: Rínar #
 Rungnir: Rögnis # probably name of Odinn
 
-Saxr: Saxar # Saxons
 Sigarr: Sigarr # king
 Sigi: Sigi Siga # son of Odin
 Siggeirr: Siggeirr Siggeir Siggeiri Siggeirs # husband of Signy
@@ -126,7 +123,6 @@ Týr: Tý # Tyr, a god
 Valdamarr: Valdamarr # warrior
 Vanr: Vönum # Vanes
 Vingi: Vingi #
-Væringar: Væringar # people
 Völsungr: Völsungi Völsungr Völsungar Völsung Völsunga Völsungs # father of Sigmundr
 
 Þóra: Þóru # daughter of Hakon

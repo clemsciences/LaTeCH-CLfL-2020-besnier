@@ -117,7 +117,7 @@ def get_volsunga_clean_proper_nouns():
     >>> clean_proper_nouns[45]
     ['Fáfni', 'Fáfnir', 'Fáfnis']
 
-    :return:
+    :return: all proper nouns
     """
     filename = os.path.join(PACKDIR,
                             Work.VOL.get_main_directory(),
@@ -127,16 +127,47 @@ def get_volsunga_clean_proper_nouns():
 
 def get_volsunga_annotated_names():
     """
+    Names -> proper nouns of persons
     >>> annotated_names = get_volsunga_annotated_names()
     >>> annotated_names["Sigmundr"]
     ['Sigmundr', 'Sigmund', 'Sigmundi', 'Sigmundar']
 
-    :return:
+    :return: annotated persons
     """
     volsunga_names_proper_nouns = os.path.join(
         PACKDIR,
         Work.VOL.get_main_directory(),
         constants.VOLSUNGA_CLEAN_NAMES_PROPER_NOUNS)
     return utils.get_annotated_proper_nouns_txt(volsunga_names_proper_nouns)
+
+
+def get_volsunga_annotated_places():
+    """
+    >>> annotated_names = get_volsunga_annotated_places()
+    >>> annotated_names["Frakkland"]
+    ['Frakklands']
+
+    :return: annotated places
+    """
+    volsunga_places_proper_nouns = os.path.join(
+        PACKDIR,
+        Work.VOL.get_main_directory(),
+        constants.VOLSUNGA_CLEAN_PLACES_PROPER_NOUNS)
+    return utils.get_annotated_proper_nouns_txt(volsunga_places_proper_nouns)
+
+
+def get_volsunga_annotated_groups():
+    """
+    >>> annotated_names = get_volsunga_annotated_groups()
+    >>> annotated_names['Hýnir']
+    ['Hýnir']
+
+    :return: annotated groupd
+    """
+    volsunga_groups_proper_nouns = os.path.join(
+        PACKDIR,
+        Work.VOL.get_main_directory(),
+        constants.VOLSUNGA_CLEAN_GROUP_PROPER_NOUNS)
+    return utils.get_annotated_proper_nouns_txt(volsunga_groups_proper_nouns)
 # endregion
 # endregion
