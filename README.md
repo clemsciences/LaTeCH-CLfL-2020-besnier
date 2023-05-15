@@ -52,7 +52,7 @@ $ pip install -r requirements.txt
 ## Reproducing results
 
 1. Download resources
-Run `$ python -m -m latechclfl2020.models.initiate latechclfl2020/models/initiate.py`
+Run `$ python -m latechclfl2020.models.initiate latechclfl2020/models/initiate.py`
 2. Generating graphs.
 Run `$ python -m latechclfl2020.models.scripts latechclfl2020/models/scripts.py`
 3. Generating character feature table in paper.

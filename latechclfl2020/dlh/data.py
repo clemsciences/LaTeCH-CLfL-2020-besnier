@@ -8,8 +8,8 @@ import codecs
 from functools import lru_cache
 from typing import List, Set
 
-from cltk.tokenize.latin.sentence import SentenceTokenizer
-from cltk.tokenize.latin.word import WordTokenizer
+from cltk.sentence.lat import LatinPunktSentenceTokenizer
+from cltk.tokenizers.processes import LatinWordTokenizer
 
 import numpy as np
 
@@ -21,8 +21,8 @@ import latechclfl2020.models.ner as ner
 
 __author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 
-latin_sentence_tokenizer = SentenceTokenizer()
-latin_word_tokenizer = WordTokenizer()
+latin_sentence_tokenizer = LatinPunktSentenceTokenizer()
+latin_word_tokenizer = LatinWordTokenizer()
 
 
 # region book

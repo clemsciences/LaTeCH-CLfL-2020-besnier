@@ -3,7 +3,7 @@ cltk>=0.1.111
 greek-accentuation>=1.2.0
 jupyter
 lxml
-matplotlib
+matplotlib~=3.7.1
 networkx==2.4
 # networkx==2.5
 norsecorpus>=1.0.2
@@ -13,3 +13,5 @@ requests>=2.24.0
 scikit-learn>=0.23.1
 scipy>=1.4.1
 sigurd>=1.2.9
+setuptools~=65.5.1
+nltk~=3.8.1

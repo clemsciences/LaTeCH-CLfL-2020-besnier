@@ -274,7 +274,7 @@ Dominus: Dominus Dominum Domini Domino # Seigneur
 Dominicus: Dominicus Dominicam
 Domicianus: Domicianus Domiciani
 Domitianus: Domitianus # Domitien
-Domnolus: Domnolus  Domnolo
+Domnolus: Domnolus Domnolo
 Domnola: Domnola Domnolae
 Dracolenus: Dracoleno Dracolenus Dracoleni Dracolenum
 Droctegyselus: Droctegyselo Droctigysilus # Droctégésile
@@ -708,7 +708,7 @@ Scaptharius: Scaptharius Scaptharium # Scaphtaire
 Scarioticae: Scarioticas # Iscariote
 # Scriptura: Scriptura # Les Ecritures
 Secundinus: Secundini # Secondin
-Sedulius: Sidulium  # Sédule
+Sedulius: Sidulium # Sédule
 Sem: Sem # Sem
 Semoes: Semoes
 Sergius: Sergii Sergi # Serge
@@ -759,7 +759,7 @@ Thare: Thare # Thare
 Thau: Thau # Thau
 Thebeus: Thebei # Thèbes
 Thecla: Thecla # Thécla
-Theodadus:  Theodadum # Théodat
+Theodadus: Theodadum # Théodat
 Theodobaldus: Theodobaldum Theodovaldus Theodovaldum Theodovaldi Theudovaldo Theudoaldus # Théovald
 Theodoberthus: Theodoberthum Theudoberthum Theudoberto Theudoberthus Theodoberto Theodoberthus Theodeberthum Theodobertum Theodoberthi Theodobertho Theudobertho Theudobertus Theudoberthi Theudobertum # Théodobert
 Theodogildis: Theodogildis Theudogildem # Teutéchilde

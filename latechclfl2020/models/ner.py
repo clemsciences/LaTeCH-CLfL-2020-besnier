@@ -5,7 +5,7 @@ from collections import defaultdict
 from typing import Set, List
 
 import numpy as np
-from cltk.text_reuse.levenshtein import Levenshtein
+from Levenshtein import distance
 from sklearn.cluster import AgglomerativeClustering
 
 from latechclfl2020 import utils, constants
@@ -41,14 +41,13 @@ def compute_distance_matrix(proper_nouns: List[str]):
     :param proper_nouns: Items of proper_nouns must be unique
     :return:
     """
-    levenshtein = Levenshtein()
 
     # We try to keep regroup different forms of a lemma
     distance_matrix = np.zeros((len(proper_nouns), len(proper_nouns)))
 
     for i in range(len(proper_nouns)):
         for j in range(len(proper_nouns)):
-            distance_matrix[i, j] = levenshtein.Levenshtein_Distance(proper_nouns[i], proper_nouns[j])
+            distance_matrix[i, j] = distance(proper_nouns[i], proper_nouns[j])
 
     return distance_matrix
 

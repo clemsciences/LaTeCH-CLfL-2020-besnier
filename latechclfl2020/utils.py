@@ -69,10 +69,11 @@ def get_annotated_proper_nouns_txt(filename, with_comments=False):
             if len(l_line) < 2:
                 continue
             lemma = l_line[0].strip()
-            if with_comments:
-                d[lemma] = {"forms": l_line[1].strip().split(" "), "comment": comment}
-            else:
-                d[lemma] = l_line[1].strip().split(" ")
+            if lemma:
+                if with_comments:
+                    d[lemma] = {"forms": l_line[1].strip().split(" "), "comment": comment}
+                else:
+                    d[lemma] = l_line[1].strip().split(" ")
         return d
 
 
@@ -81,7 +82,8 @@ def save_annotated_proper_nouns_txt(filename, annotated_proper_nouns: List[Dict[
     for annotated_proper_noun in annotated_proper_nouns:
         line = ""
         for lemma in annotated_proper_noun:
-            line += "".join(lemma)+": "+" ".join(annotated_proper_noun[lemma])
+            if lemma:
+                line += "".join(lemma)+": "+" ".join(annotated_proper_noun[lemma])
         lines.append(line)
     with codecs.open(filename, "w", encoding="utf-8") as f:
         f.write("\n".join(lines)+"\n")

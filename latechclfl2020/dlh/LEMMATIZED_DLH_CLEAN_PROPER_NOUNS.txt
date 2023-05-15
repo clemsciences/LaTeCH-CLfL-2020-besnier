@@ -1024,7 +1024,7 @@ Roccolenus: Roccolenus
 Roma: Roma Romam Romae
 Romacharius: Romacharius
 Romaniacum: Romaniacum
-Romanum: Romanorum Romanam Romanum Romanae Romani Romanis  Romano Romanos# Romains
+Romanum: Romanorum Romanam Romanum Romanae Romani Romanis Romano Romanos# Romains
 Romulfus: Romulfus Romulfum
 Rosontinse: Rosontinse
 Rotomagensis: Rotomagensis Rothomagensim Rothomagensis Rothomaginse # Rouen

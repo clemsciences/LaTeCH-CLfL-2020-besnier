@@ -74,7 +74,7 @@ Brinctanorum: Brinctanorum Brittanorum # Bretons
 Brictionem: Brictionem # Bretagne
 Brittanus: Brittaniam Brittanis Brittaniis Brittanus Brittanos Brittanias Brittaniae Brittani Brittania
 Britto: Britto Brittone
-Briva: Brivam  # Brive
+Briva: Brivam # Brive
 Briva-Curretia: Briva-Curretia # Brive la Gaillarde
 Brivate: Brivate Brivatensim Brivatinsem # Brioude
 Brixis: Brixis # Reignac-sur-Indre
@@ -219,7 +219,7 @@ Mauritania: Mauritaniam # Mauritanie
 Mecledonensis: Mecledonensem Megledonense # Melun
 Mediconnus: Mediconno # Mosnes/Mougon
 Mediolaninsis: Mediolaninsibus Mediolanensis Mediolanensem Mediolanensim # Milan/Chateaumeillant
-Meduana: Meduanae  # la Mayenne
+Meduana: Meduanae # la Mayenne
 Meldus: Meledus Meldensem Melitensim Meldensi Meldensim Mel # Meaux
 Melitensis: Melitensim # Méallet
 Memmatinsis: Memmatinsis # Mende
@@ -279,7 +279,7 @@ Rhenus: Rheu Rhenus Rheno Rhenum # Rhin
 Rhodanus: Rhodani Rodano Rhodanus Rhodanum Rodanus Rhodanitica Rhodanitides # Rhône
 Rigoialinsim: Rigoialinsim # Reuil?
 Rodomago: Rhodomago Rodomago Rotomagensis Rothomagensim Rothomagensis Rothomaginse Rodoialensim Rotoialinsim Rhodomaginsem Rodomaginsem Rhotomaginsem Rhodomagensie Rhodomaginsis # Rouen
-Roma: Roma Romam Romae Romanorum Romanam Romanum Romanae Romani Romanis  Romano Romanos # Rome
+Roma: Roma Romam Romae Romanorum Romanam Romanum Romanae Romani Romanis Romano Romanos # Rome
 Romaniacus: Romaniacum # Romagnac
 Rosontinse: Rosontinse # Rosson?
 Rotomago: Rotomago # Pont-de-Ruan
