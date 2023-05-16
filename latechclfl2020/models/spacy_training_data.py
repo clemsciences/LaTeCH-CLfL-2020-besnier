@@ -1,6 +1,8 @@
-
+"""Module made to transform annotations into spaCy-usable training data
+"""
 
 from collections import defaultdict
+import json
 from typing import List, Dict
 
 from latechclfl2020.models.initiate import initiate
@@ -12,6 +14,7 @@ from latechclfl2020.volsunga.data import get_volsunga_text, get_volsunga_annotat
 
 from latechclfl2020.nibelungenlied.data import get_nibelungen_book, get_nibelungenlied_annotated_names, \
     get_nibelungenlied_annotated_groups, get_nibelungenlied_annotated_places
+
 
 initiate()
 
@@ -25,7 +28,7 @@ def invert_dictionary(dictionary):
     return inverted_dictionary
 
 
-def add_found_items(sentence: str, tokenized_sentence: List[str], inverse_dictionary: Dict[str, List[str]]):
+def add_found_items(sentence: str, tokenized_sentence: List[str], inverse_dictionary: Dict[str, List[str]], label: str):
     l = []
     for i in inverse_dictionary:
         if i in tokenized_sentence:
@@ -33,176 +36,107 @@ def add_found_items(sentence: str, tokenized_sentence: List[str], inverse_dictio
             if i:
                 start = sentence.index(i)
                 end = start + len(i)
-                # vol_data[" ".join(tokenized_sentence)]\
-                l.append(dict(token=i, lemma=inverse_dictionary[i], start=start, end=end))
+                l.append(dict(token=i, lemma=inverse_dictionary[i], start=start, end=end, label=label))
             else:
                 # print(repr(i), inverse_dictionary[name])
                 pass
     return l
 
 
-def extract_ner_annotation(sentences: List[List[str]], inverse_dictionaries: List[Dict[str, List[str]]]):
+def extract_ner_annotation(sentences: List[List[str]], annotations: List[Dict]):
     data = defaultdict(list)
-    for inverse_d in inverse_dictionaries:
+    for annotation in annotations:
         for tokenized_sentence in sentences:
             sentence = " ".join(tokenized_sentence)
-            item = add_found_items(sentence, tokenized_sentence, inverse_d)
+            item = add_found_items(sentence, tokenized_sentence, annotation["d"], annotation["label"])
             if item:
                 data[sentence].extend(item)
     return data
 
 
-# region DLH
-dlh_books = extract_parsed_dlh_books()
+def save_serializable_data(data, filename: str):
+    with open(filename, "w") as f:
+        f.write(json.dumps(data))
 
+
+# region DLH
+def get_dlh_sentences(books):
+    dlh_sentences = []
+    for book in books:
+        for chapter in book:
+            for tokenized_sentence in chapter:
+                dlh_sentences.append(tokenized_sentence)
+    return dlh_sentences
+
+
+dlh_books = extract_parsed_dlh_books()
 dlh_d_person_names = get_lemmatised_dlh_person_names()
 inverse_dlh_d_person_names = invert_dictionary(dlh_d_person_names)
-# print(dlh_d_person_names)
-# print(inverse_dlh_d_person_names)
-# person_names = {name for i in d_person_names for name in i}
 dlh_d_place_names = get_lemmatised_dlh_place_names()
 inverse_dlh_d_place_names = invert_dictionary(dlh_d_place_names)
-# print(inverse_dlh_d_place_names)
-
-dlh_sentences = []
-for book in dlh_books:
-    for chapter in book:
-        for tokenized_sentence in chapter:
-            dlh_sentences.append(tokenized_sentence)
-
-dlh_data = extract_ner_annotation(dlh_sentences, [inverse_dlh_d_person_names, inverse_dlh_d_place_names])
-# dlh_data = defaultdict(list)
-# for tokenized_sentence in dlh_sentences:
-#     for name in inverse_dlh_d_person_names:
-#         if name in tokenized_sentence:
-#             if name:
-#                 dlh_data[" ".join(tokenized_sentence)].append(dict(token=name, lemma=inverse_dlh_d_person_names[name]))
-#             else:
-#                 print(repr(name), inverse_dlh_d_person_names[name])
-#
-#     for place in inverse_dlh_d_place_names:
-#         if place in tokenized_sentence:
-#             if place:
-#                 dlh_data[" ".join(tokenized_sentence)].append(dict(lemma=inverse_dlh_d_place_names[place], token=place))
-#             else:
-#                 print(repr(place), inverse_dlh_d_place_names[place])
 
 
+dlh_data = extract_ner_annotation(get_dlh_sentences(dlh_books),
+                                  [dict(label="PERSON", d=inverse_dlh_d_person_names),
+                                   dict(label="LOC", d=inverse_dlh_d_place_names)])
+save_serializable_data(dlh_data, "dlh_ner_data.json")
 # endregion
 
 
 # region Völsunga
-vol_text = get_volsunga_text()
-# print(vol_text)
-# print(len(vol_text))
-# print(len(vol_text[0]))
+def get_vol_sentences(book):
+    vol_sentences = []
+    for chapter in book:
+        for paragraph in chapter:
+            for tokenized_sentence in paragraph:
+                vol_sentences.append(tokenized_sentence)
+    return vol_sentences
 
-vol_sentences = []
-for chapter in vol_text:
-    for paragraph in chapter:
-        for tokenized_sentence in paragraph:
-            vol_sentences.append(tokenized_sentence)
-# print(vol_sentences)
+
+vol_text = get_volsunga_text()
 
 vol_d_person_names = get_volsunga_annotated_names()
 inverse_vol_d_person_names = invert_dictionary(vol_d_person_names)
-# print(vol_d_person_names)
-# print(inverse_vol_d_person_names)
 
 vol_d_place_names = get_volsunga_annotated_places()
 inverse_vol_d_place_names = invert_dictionary(vol_d_place_names)
-# print(inverse_vol_d_place_names)
 
 vol_d_group_names = get_volsunga_annotated_groups()
 inverse_vol_d_group_names = invert_dictionary(vol_d_group_names)
-# print(inverse_vol_d_group_names)
 
-vol_data = extract_ner_annotation(vol_sentences,
-                                  [inverse_vol_d_person_names,
-                                   inverse_vol_d_place_names,
-                                   inverse_vol_d_group_names])
-# vol_data = defaultdict(list)
-# for tokenized_sentence in vol_sentences:
-#     sentence = " ".join(tokenized_sentence)
-#     vol_data[sentence].extend(add_found_items(tokenized_sentence, inverse_vol_d_person_names))
-#     vol_data[sentence].extend(add_found_items(tokenized_sentence, inverse_vol_d_place_names))
-#     vol_data[sentence].extend(add_found_items(tokenized_sentence, inverse_vol_d_group_names))
-
-# for name in inverse_vol_d_person_names:
-#     if name in sentence:
-#         if name:
-#             vol_data[" ".join(sentence)].append(dict(token=name, lemma=inverse_vol_d_person_names[name]))
-#         else:
-#             print(repr(name), inverse_vol_d_person_names[name])
-
-# for place in inverse_vol_d_place_names:
-#     if place in tokenized_sentence:
-#         if place:
-#             vol_data[" ".join(tokenized_sentence)].append(dict(lemma=inverse_vol_d_place_names[place], token=place))
-#         else:
-#             print(repr(place), inverse_vol_d_place_names[place])
-# for group in inverse_vol_d_group_names:
-#     if group in tokenized_sentence:
-#         if group:
-#             vol_data[" ".join(tokenized_sentence)].append(dict(lemma=inverse_vol_d_place_names[group], token=group))
-#         else:
-#             print(repr(group), inverse_vol_d_place_names[group])
-print(vol_data)
+vol_data = extract_ner_annotation(get_vol_sentences(vol_text),
+                                  [dict(d=inverse_vol_d_person_names, label="PERSON"),
+                                   dict(d=inverse_vol_d_place_names, label="LOC"),
+                                   dict(d=inverse_vol_d_group_names, label="")])
+save_serializable_data(vol_data, "vol_ner_data.json")
+# print(vol_data)
 # endregion
 
-# region Niebelungenlied
-nib_book = get_nibelungen_book()
-# print(nib_book)
-nib_sentences = []
-for chapter in nib_book:
-    for tokenized_sentence in chapter:
-        vol_sentences.append(tokenized_sentence)
 
+# region Niebelungenlied
+def get_nib_sentences(book):
+    nib_sentences = []
+    for chapter in book:
+        for tokenized_sentence in chapter:
+            nib_sentences.append(tokenized_sentence)
+    return nib_sentences
+
+
+nib_book = get_nibelungen_book()
 
 nib_d_person_names = get_nibelungenlied_annotated_names()
 inverse_nib_d_person_names = invert_dictionary(nib_d_person_names)
-# print(nib_d_person_names)
-# print(inverse_nib_d_person_names)
 
 nib_d_place_names = get_nibelungenlied_annotated_places()
 inverse_nib_d_place_names = invert_dictionary(nib_d_place_names)
-# print(inverse_nib_d_place_names)
 
 nib_d_group_names = get_nibelungenlied_annotated_groups()
 inverse_nib_d_group_names = invert_dictionary(nib_d_group_names)
-# print(inverse_nib_d_group_names)
 
-
-nib_data = extract_ner_annotation(nib_sentences, [inverse_nib_d_person_names,
-                                                  inverse_nib_d_place_names,
-                                                  inverse_nib_d_group_names
-                                                  ])
-# nib_data = defaultdict(list)
-# for tokenized_sentence in nib_sentences:
-#     sentence = " ".join(tokenized_sentence)
-#     nib_data[sentence].extend(add_found_items(tokenized_sentence, inverse_nib_d_person_names))
-#     nib_data[sentence].extend(add_found_items(tokenized_sentence, inverse_nib_d_place_names))
-#     nib_data[sentence].extend(add_found_items(tokenized_sentence, inverse_nib_d_group_names))
-
-# for name in inverse_nib_d_person_names:
-#     if name in tokenized_sentence:
-#         if name:
-#             nib_data[" ".join(tokenized_sentence)].append(dict(token=name, lemma=inverse_nib_d_person_names[name]))
-#         else:
-#             print(repr(name), inverse_nib_d_person_names[name])
-
-# for place in inverse_nib_d_place_names:
-#     if place in tokenized_sentence:
-#         if place:
-#             nib_data[" ".join(tokenized_sentence)].append(dict(lemma=inverse_nib_d_place_names[place], token=place))
-#         else:
-#             print(repr(place), inverse_nib_d_place_names[place])
-
-# for group in inverse_nib_d_group_names:
-#     if group in tokenized_sentence:
-#         if group:
-#             nib_data[" ".join(tokenized_sentence)].append(dict(lemma=inverse_nib_d_place_names[group], token=group))
-#         else:
-#             print(repr(group), inverse_nib_d_place_names[group])
-# print(nib_data)
+nib_data = extract_ner_annotation(get_nib_sentences(nib_book),
+                                  [dict(d=inverse_nib_d_person_names, label="PERSON"),
+                                   dict(d=inverse_nib_d_place_names, label="LOC"),
+                                   dict(d=inverse_nib_d_group_names, label="")
+                                   ])
+save_serializable_data(nib_data, "nib_ner_data.json")
 # endregion
