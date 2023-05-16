@@ -14,7 +14,7 @@ Bera: Bera Beru # brother of Orkning
 Bikki: Bikka Bikki # advisor of king Jörmunrekr
 Borghildr: Borghildar Borghildr # wife of Sigmundr, mother of Helgi and Hamundr
 Bragi: Braga # scald deified?
-Breði: Breði # slave of Skadhi
+Breði: Breði # slave of Skaði
 Brynhildr: Brynhildr Brynhildar Brynhildi # queen of Iceland
 Buðli: Buðla Buðli # father of Brynhildr
 
@@ -57,7 +57,7 @@ Helgi: Helgi # son of Sigmundr and Borghildr
 Heimir: Heimir Heimis Heiman # king and husband of Bekkhildr
 Hervarðr: Hervarð # son of Hunding
 Hjalla: Hjalla # slave
-Hjálmgunnarr: Hjálmgunnar Hjálmgunnarr (secondary)
+Hjálmgunnarr: Hjálmgunnar Hjálmgunnarr # (secondary)
 Hjálprekr: Hjálpreks Hjálpreki #
 Hjördís: Hjördís Hjördísi Hjördísar #
 Hjörvarð: Hjörvarð #
@@ -88,7 +88,7 @@ Nokkurr: Nokkurs # king
 
 Oddrún: Oddrúnu #
 Óinn: Óinn # father of Andvari
-Orkningr: brother of Bera
+#Orkningr: # brother of Bera
 Otr: Otr # son of Hreidhmarr
 Óðinn: Óðins Óðni Óðinn Óðin # all-father
 
@@ -105,7 +105,7 @@ Siggeirr: Siggeirr Siggeir Siggeiri Siggeirs # husband of Signy
 Sigmundr: Sigmundr Sigmund Sigmundi Sigmundar # father of Sigurdr and son of Völsungr
 Signý: Signýjar Signý Signýju # wife of Siggeir and mother of Sinfjötli
 Sigrún: Sigrúnar Sigrún # daughter of Högni
-Sigurðr: Sigurð Sigurði Sigurðr Sigurðar Fáfnisbana # Fáfnisbana, a surname of Sigurðr
+Sigurðr: Sigurð Sigurði Sigurðr Sigurðar Fáfnisbana # Fáfnisbana, a nickname of Sigurðr
 Sinfjötli: Sinfjötli Sinfjötla # son of Sigmundr and Signy
 Skaði: Skaði # Skaði possessed a slave named Bradhi
 Sleipnir: Sleipni Sleipnis # Odin's horse
